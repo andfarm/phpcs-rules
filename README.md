@@ -22,18 +22,18 @@ $cfg->registerCustomFixers([
 ]);
 ```
 
-wrap_block_comments
--------------------
+`wrap_block_comments`
+---------------------
 
-wrap_block_comments wraps multi-line block comments (including docblocks)) to a
+`wrap_block_comments` wraps multi-line block comments (including docblocks)) to a
 configurable maximum line length, defaulting to 80 columns. See the doc comments
 for this fixer for details.
 
 License
 -------
 
-The CommonGround logger, as with all Common Ground components, is MIT licensed.
-See LICENSE for the full text.
+The CommonGround PHP-CS-Fixer rules, as with all Common Ground components, are
+MIT licensed. See LICENSE for the full text.
 
 
 [phpcsf]: https://packagist.org/packages/friendsofphp/php-cs-fixer
